@@ -1,8 +1,7 @@
 {
   "scripts": {
     "start": "node scripts/api/server.js",
-    "test": "ts-node scripts/manual_testing/refactor/all.ts standalone local",
-    "dev": "bash scripts/network_configs.sh standalone local"
+    "test": "ts-node scripts/manual_testing/refactor/all.ts standalone local"
   },
   "dependencies": {
     "@stellar/stellar-sdk": "^11.1.0",
